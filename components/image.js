@@ -5,6 +5,7 @@ const Image = ({ image, style }) => {
   const { url, alternativeText } = image
 
   const loader = () => {
+    console.log(image)
     return getStrapiMedia(image)
   }
 
